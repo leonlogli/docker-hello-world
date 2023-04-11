@@ -21,7 +21,7 @@ docker build -t docker-hello-world .
 Run the Docker container:
 
 ```bash
-docker run -p 8080:8080 docker-hello-world
+docker run -p 3000:8080 docker-hello-world
 ```
 
 To stop the container:
